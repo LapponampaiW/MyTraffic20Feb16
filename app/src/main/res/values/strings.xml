@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Src=>value=>strings.xml</string>
+
+    <string name="head">จราจร</string>
+    <string name="about">About me</string>
+
+
+</resources>
