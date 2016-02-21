@@ -30,18 +30,19 @@ public class MainActivity extends AppCompatActivity {
         buttonController();
 
 
-
     }    //Main Method
+
+
 
     private void buttonController() {
 
         aboutButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
                 //การทำ Sound effect
 
-                MediaPlayer mediaPlayer = MediaPlayer.create(getBaseContext(),R.raw.dog);
+                MediaPlayer mediaPlayer = new MediaPlayer();
+                mediaPlayer = MediaPlayer.create(getBaseContext(),R.raw.dog);
                 mediaPlayer.start();
 
                 //Web View
@@ -50,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
 
 
-                 //getbasecontext ใช้แหล่งกำเนิดเสียงใน internal
+                //getbasecontext ใช้แหล่งกำเนิดเสียงใน internal
 
 
                 // event ต้องทำไปเรื่อยๆ ถึงจะออกจาก event
