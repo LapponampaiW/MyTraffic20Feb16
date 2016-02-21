@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
         android:text="@string/head"
         android:id="@+id/textView"
-        android:textSize="@dimen/h2"
+        android:textSize="30sp"
         android:textIsSelectable="true"
         android:layout_centerHorizontal="true"
         android:textColor="#0065c3" />
